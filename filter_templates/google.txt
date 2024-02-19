@@ -1,0 +1,2 @@
+www.google.*##.g:has(a[href*=".$SITENAME."])
+www.google.*##a[href*=".$SITENAME."]:upward(1)

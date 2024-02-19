@@ -1,0 +1,4 @@
+bing.com#?#[id$="results"] cite:has-text(.$SITENAME.):upward(li)
+bing.com#?#a[href*=".$SITENAME."]:upward(li[data-idx][style^="width"])
+bing.com#?#[id*="video"] > [href*=".$SITENAME."]:upward(.dg_u)
+bing.com##.news-card[url*=".$SITENAME."]
