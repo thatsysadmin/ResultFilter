@@ -1,5 +1,10 @@
-www.google.*##.g:has(a[href*=".quora."])
-www.google.*##a[href*=".quora."]:upward(1)bing.com#?#[id$="results"] cite:has-text(.quora.):upward(li)
+bing.com#?#[id$="results"] cite:has-text(.insidethemagic.):upward(li)
+bing.com#?#a[href*=".insidethemagic."]:upward(li[data-idx][style^="width"])
+bing.com#?#[id*="video"] > [href*=".insidethemagic."]:upward(.dg_u)
+bing.com##.news-card[url*=".insidethemagic."]www.google.*##.g:has(a[href*=".insidethemagic."])
+www.google.*##a[href*=".insidethemagic."]:upward(1)
+bing.com#?#[id$="results"] cite:has-text(.quora.):upward(li)
 bing.com#?#a[href*=".quora."]:upward(li[data-idx][style^="width"])
 bing.com#?#[id*="video"] > [href*=".quora."]:upward(.dg_u)
-bing.com##.news-card[url*=".quora."]
+bing.com##.news-card[url*=".quora."]www.google.*##.g:has(a[href*=".quora."])
+www.google.*##a[href*=".quora."]:upward(1)

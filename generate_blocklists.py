@@ -22,6 +22,7 @@ for domain_list_filename in domain_lists:
     while True:
         domain = domain_list_file.readline()
         if domain == "":
+            filter_list.append("\n")
             break
         for template in filter_template_list:
             cache = template.replace("$SITENAME", domain)
